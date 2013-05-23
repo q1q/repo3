@@ -1,5 +1,5 @@
 #!/bin/bash
-PROG="minerd"
+PROG="gbt2"
 URL="168.62.6.110" # azure-west
 PORT=8108
 USER="growl"
