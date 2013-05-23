@@ -9,8 +9,11 @@ Clone () {
 }
 
 Run () {
-	ssh ${HOSTNAME}${i} "sh $REPO/$SCRIPT $A $B $C"
+	ssh ${HOSTA}${i} "sh $REPO/$SCRIPT $A $B $C"
 }	
+
+Pull () {
+	ssh ${HOSTA}${i} "cd $REPO ; git pull; 
 
 for ((i=$2;i!=($3+1);i++)) ; do
 	$1
