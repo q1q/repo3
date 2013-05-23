@@ -13,8 +13,8 @@ Run () {
 }	
 
 Pull () {
-	ssh ${HOSTA}${i} "cd $REPO ; git pull; 
-
+	ssh ${HOSTA}${i} "cd $REPO ; git pull" 
+}
 for ((i=$2;i!=($3+1);i++)) ; do
 	$1
 done
