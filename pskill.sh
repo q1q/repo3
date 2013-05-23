@@ -2,4 +2,4 @@
 PROG="gbt2"
 
 pkill $PROG 
-ps -e | grep gbt
+ps -e | grep  $PROG
